@@ -1,6 +1,6 @@
 ---
 name: ugc-write
-description: Schreibt UGC-Video-Skripte und Ad-Copies (TikTok, Reels, Meta Ads, Shorts) für ein Produkt. Nutzen, wenn der User nach UGC-Skripten, Ad-Copy, Hooks, Video-Scripts, Creator-Briefings oder Varianten einer bestehenden Ad fragt, z. B. "schreib mir eine Copy für …", "mach 5 Hooks für …", "UGC-Skript für mein Produkt".
+description: Schreibt UGC-Video-Skripte frei von Grund auf (Modus "write"). Wird meist über ugc-ads aufgerufen. Enthält außerdem die gemeinsamen Schreibregeln, das Ausgabeformat und die Compliance-Regeln für alle UGC-Skills. Schreibt und Ad-Copies (TikTok, Reels, Meta Ads, Shorts) für ein Produkt. Nutzen, wenn der User nach UGC-Skripten, Ad-Copy, Hooks, Video-Scripts, Creator-Briefings oder Varianten einer bestehenden Ad fragt, z. B. "schreib mir eine Copy für …", "mach 5 Hooks für …", "UGC-Skript für mein Produkt".
 ---
 
 # UGC Copy Writer
@@ -90,7 +90,12 @@ Danach immer:
 - Keine Vorher/Nachher-Versprechen, die die Plattform-Richtlinien verletzen
   (Meta und TikTok sind bei Gewicht und Haut streng). Bei Risiko kurz darauf hinweisen.
 
-## 7. Überarbeiten
+## 7. Speichern
+
+Wurde der Skill direkt (nicht über ugc-ads) aufgerufen, trotzdem in
+`ugc/<brand>/<YYYY-MM-DD>-write-<slug>.md` speichern (Regeln siehe `ugc-ads/SKILL.md`, Abschnitt 4).
+
+## 8. Überarbeiten
 
 Will der User Änderungen ("kürzer", "mehr Humor", "andere Zielgruppe"),
 überarbeite nur die betroffene Variante und lass die anderen stehen.
