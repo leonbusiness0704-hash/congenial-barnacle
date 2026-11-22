@@ -1,6 +1,6 @@
 ---
 name: ugc-write
-description: Schreibt UGC-Video-Skripte frei von Grund auf (Modus "write"). Wird meist über ugc-ads aufgerufen. Enthält außerdem die gemeinsamen Schreibregeln, das Ausgabeformat und die Compliance-Regeln für alle UGC-Skills. Schreibt und Ad-Copies (TikTok, Reels, Meta Ads, Shorts) für ein Produkt. Nutzen, wenn der User nach UGC-Skripten, Ad-Copy, Hooks, Video-Scripts, Creator-Briefings oder Varianten einer bestehenden Ad fragt, z. B. "schreib mir eine Copy für …", "mach 5 Hooks für …", "UGC-Skript für mein Produkt".
+description: Schreibt UGC-Video-Skripte frei von Grund auf (Modus "write"). Wird meist über ugc-ads aufgerufen. Enthält außerdem die gemeinsamen Schreibregeln, das Ausgabeformat und die Compliance-Regeln für alle UGC-Skills (TikTok, Reels, Meta Ads, Shorts). Nutzen, wenn der User nach UGC-Skripten, Ad-Copy, Hooks, Video-Scripts, Creator-Briefings oder Varianten einer bestehenden Ad fragt, z. B. "schreib mir eine Copy für …", "mach 5 Hooks für …", "UGC-Skript für mein Produkt".
 ---
 
 # UGC Copy Writer
